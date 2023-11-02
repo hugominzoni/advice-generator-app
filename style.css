@@ -83,6 +83,10 @@ main{
     margin-bottom: 20px;
 }
 
+.advice-line img{
+    width: 100%;
+}
+
 .dice{
     width: 60px;
     height: 60px;
@@ -106,3 +110,18 @@ main{
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media  (max-width: 600px) {
+    .advice-box{
+        width: 100%;
+        background-color: hsl(217, 19%, 24%);
+        border-radius: 20px;
+        padding: 40px;
+        text-align: center;
+        position: relative;
+    }
+
+    main{
+        padding: 0 20px;
+    }
+}
