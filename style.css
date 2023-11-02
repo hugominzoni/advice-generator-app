@@ -38,6 +38,10 @@ The designs were created to the following widths:
 
 */
 
+body{
+    position: relative;
+}
+
 
 *{
     margin: 0;
@@ -108,8 +112,15 @@ main{
     box-shadow: 0 0 20px hsla(150, 100%, 66%);
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    position: absolute;
+    bottom: 30px;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px;
+    text-align: center; }
+.attribution a { color: hsla(150, 100%, 66%); }
 
 @media  (max-width: 600px) {
     .advice-box{
