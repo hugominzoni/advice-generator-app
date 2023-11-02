@@ -90,13 +90,18 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: hsla(150, 100%, 66%, 0.846);
+    background-color: hsla(150, 100%, 66%, 0.762);
     position: absolute;
     bottom: -60px;
     left: 50%;
     transform: translate(-50%, -30px);
     cursor: pointer;
 
+}
+
+.dice:hover{
+    background-color: hsla(150, 100%, 66%);
+    box-shadow: 0 0 20px hsla(150, 100%, 66%);
 }
 
 .attribution { font-size: 11px; text-align: center; }
