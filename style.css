@@ -1,0 +1,103 @@
+/*
+
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Light Cyan: hsl(193, 38%, 86%)
+- Neon Green: hsl(150, 100%, 66%)
+
+### Neutral
+
+- Grayish Blue: hsl(217, 19%, 38%)
+- Dark Grayish Blue: hsl(217, 19%, 24%)
+- Dark Blue: hsl(218, 23%, 16%)
+
+## Typography
+
+### Body Copy
+
+- Font size (quote): 28px
+
+### Font
+
+- Family: [Manrope](https://fonts.google.com/specimen/Manrope)
+- Weights: 800
+
+
+
+
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advice-box{
+    width: 550px;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.advice-number{
+    color: hsla(150, 100%, 66%, 0.758);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.advice-quote{
+    font-size: 28px;
+    color: hsla(193, 38%, 86%, 0.758);
+    margin-bottom: 30px;
+}
+
+.advice-line{
+    margin-bottom: 20px;
+}
+
+.dice{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(150, 100%, 66%, 0.846);
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translate(-50%, -30px);
+    cursor: pointer;
+
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
